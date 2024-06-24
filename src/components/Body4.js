@@ -9,6 +9,7 @@ export const Body4 = () => {
       </div>
       <div className="flex flex-col gap-5 m-auto">
       <div className="h-[288px] w-[896px] border-2 border-sky-500 flex justify-center">
+        <img>src"</img>
         <h1>Sr. Frontend Developer</h1>
         <h1>Nov 2021 - Present</h1>
 
