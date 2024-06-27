@@ -71,8 +71,8 @@ const MyComponent = () => {
 
 export const Body3 = () => {
   return (
-    <div className="flex flex-col gap-7 justify-center bg-zinc-400">
-      <div className="m-auto mt-20 h-7 w-36 bg-white rounded flex justify-between">
+    <div className="flex flex-col gap-7 justify-center my-24">
+      <div className="m-auto mt-20 h-7 w-36 bg-gray-600 rounded-lg flex justify-between">
         <button className="m-auto">Skill</button>
       </div>
       <div className="m-auto">

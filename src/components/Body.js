@@ -1,10 +1,10 @@
 import{image} from 'next/image';
 export const Body = () => {
     return (
-      <div className="w-full h-full border-solid border-2 border-sky-500  mx-auto flex justify-between items-center justify-center text-white">
-        <div className="flex-1 text-center p-4">
-          <h1>Hi, I’m Tom 👋</h1>
-          <h2 className="mt-4">
+      <div className="w-screen   mx-auto flex justify-between  left-0 text-white">
+        <div className="w-1/2  p-4 my-[96px] mx-[80px]">
+          <h1 className='text-4xl text-black'>Hi, I’m Tom 👋</h1>
+          <h2 className="mt-4 text-black">
             I specialize in full stack development, particularly with React.js and Node.js. My main goal is to create exceptional digital experiences that are fast, visually appealing, and accessible to everyone. With over 7 years of experience in web development, I continue to find joy in crafting innovative solutions and designs.
           </h2>
           <div className='flex gap-5 pt-14'>
@@ -25,7 +25,7 @@ export const Body = () => {
         <img src="/links.png" alt="Profile Picture" className=" w h-auto" />
         </div>
         </div>
-        <div className="w-2/3 mt-4 flex 1 flex item-center justify-center">
+        <div className="flex justify-center w-1/2  m-auto mt-8">
           <img src="/Pic.png" alt="Profile Picture" className=" w h-auto" />
         </div>
       </div>
